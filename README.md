@@ -27,15 +27,15 @@ __Python Packages__
 Using the scrapped text data, word frequency distributions were taken for positive, negative, and total text data.
 Unfortunately there is really not much of a difference between the three graphs.
 
-![image.png](./Images/Top10Positive.png)
+![image.png](./Images/Top10Positive.PNG)
 
-![image.png](./Images/Top10Negative.png)
+![image.png](./Images/Top10Negative.PNG)
 
-![image.png](./Images/Top10.png)
+![image.png](./Images/Top10.PNG)
 
 To further investigate, absolute difference of positive vs. negative word frequencies were compared. 
 
-![image.png](./Images/AbsDiff.png)
+![image.png](./Images/AbsDiff.PNG)
 
 There is not much of a difference here. Note Amazon is mentioned here as the 14th ranked absolute difference word frequency distribution. 
 
@@ -43,19 +43,19 @@ There is not much of a difference here. Note Amazon is mentioned here as the 14t
 
 One of the best ways to visualize text data is to use a word cloud which can be seen below:
 
-![image.png](./Images/wordcloud.png)
+![image.png](./Images/wordcloud.PNG)
 
 Some words that may be of interest here would be Impeachment (surprise surprise), Gun, Brazil, Kim (North Korea), and Volatility. There are a lot of financial words/jargon along with it politcal topics of 2019.  
 
 Another cool way to represent text data is to insert words into images found online. Below, the WSJ logo was used to create another word cloud of the text data. 
 
-![image.png](./Images/wsj.png)
+![image.png](./Images/wsj.PNG)
 
 ### Bigrams
 
 Lastly, after tokenizing the data, the bigraming technique was used to see which words are highly correlated to one another. The number one bigram is not suprisng in the least! A interesting bigram is the 737 max pair, as this is in leui of the bug in the 737 max airplane.. 
 
-![image.png](./Images/Bigram.png)
+![image.png](./Images/Bigram.PNG)
 
 Turns out, using the bigrams as vectors to perform logistic regression yieled the highest base line model with a accuracy of 69 percent.
 
@@ -63,6 +63,6 @@ Turns out, using the bigrams as vectors to perform logistic regression yieled th
 
 Nerual Networks are computer systems modeled on the idea of the human brain and nervous system. In the most basic definition, data is fed into the system which is transformed into vectors. From these vectors the hidden vector is fed which then feeds the  output layer. Neural networks can be as basic as having one hidden layer to a multidue of hidden layers. 
 
-![image.png](./Images/neural.png)
+![image.png](./Images/neural.PNG)
 
 The optimal model had five hidden layers to it. The model used a LSTM layer along with four dense layers, yielding a accuracy of 65%
